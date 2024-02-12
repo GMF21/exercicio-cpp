@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int a = 4;
+int b = 4;
+
+double PI = 3.14159; 
+
+double num;
+
+int main() {
+    
+    cout << a + b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+    cout << a / b << endl;
+    cout << a % b << endl;
+    
+    cout << "Qual o valor que queres usar para o raio do circulo: ";
+    cin >> num;
+    
+    cout << PI * (num * num) << endl;
+    
+    return 0;
+}
