@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+
+
+int num;
+
+
+int main(){
+    
+    cout << "Escolhe um numero 0 a 10: ";
+    cin >> num;
+    
+    cout << "Tabuada de " << num << ":" << endl;
+    
+    for(int i=1; i<= 10; ++i) // para cmc no 1, ++i para somar primeiro e dps mostrar o resultado
+    { cout << num << "x" << i << "=" << num * i << endl; 
+    }
+    
+    return 0;
+}
