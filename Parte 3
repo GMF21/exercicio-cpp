@@ -14,7 +14,7 @@ int main(){
     
     cout << "Tabuada de " << num << ":" << endl;
     
-    for(int i=1; i<= 10; i++) // para cmc no 1 que va ate ao 10, ++i 
+    for(int i=1; i<= 10; i++) // para cmc no 1 que va ate ao 10 
     { cout << num << "x" << i << "=" << num * i << endl; 
     }
     
